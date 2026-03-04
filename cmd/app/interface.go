@@ -6,4 +6,7 @@ type Calc interface {
 
 	GetSchool_score() (string, int, int, int)
 	determinate_School_score()
+
+	GetMathe() (int, int, int)
+	addtion(int, int, int)
 }
