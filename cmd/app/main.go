@@ -18,10 +18,16 @@ func main() {
 	fmt.Println("\n", alice.name, alice.score_list)
 	fmt.Println("\n", bob.name, bob.score_list)
 
-	// math.go
+	// math2.go
 	mathe := &mathe{}
 	mathe.SetMathe(12, 17, 0)
 	x, y, result := mathe.addtion()
 	fmt.Printf("\n%d + %d = %d", x, y, result)
+
+	// mathe2.go
+	mathe2 := &Mathe2{}
+	mathe2.SetMathe2(3, 4, 0)
+	x2, y2, result2 := mathe2.calc_mathe2_mul()
+	fmt.Printf("\n%d * %d = %d", x2, y2, result2)
 
 }

@@ -9,4 +9,7 @@ type Calc interface {
 
 	GetMathe() (int, int, int)
 	addtion(int, int, int)
+
+	GetMathe2() (uint, uint, uint)
+	calc_mathe2_mul() (uint, uint, uint)
 }
